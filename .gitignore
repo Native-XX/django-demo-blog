@@ -3,6 +3,7 @@ include/
 lib/
 local/
 .Python
+
 *.py[co]
 .tox/
 __pycache__
@@ -15,3 +16,7 @@ tests/coverage_html/
 tests/.coverage
 build/
 tests/report/
+
+*.pyc
+db.sqlite3
+/static
